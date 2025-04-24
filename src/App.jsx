@@ -18,7 +18,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <div className='mx-4 sm:mx-[10%]'>
+      <div className='mx-4 overflow-hidden sm:mx-[10%]'>
         <Navbar/>
         <Routes>
           <Route path="/"  element={<Home/>} />

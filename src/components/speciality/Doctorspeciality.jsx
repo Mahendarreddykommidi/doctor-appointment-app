@@ -17,7 +17,7 @@ const Doctorspeciality = () => {
 
         </div>
         <div className='flex flex-col items-center justify-center gap-5 px-10' >  
-            <div className='flex sm:justify-center overflow-x-scroll pt-14 gap-6'>   
+            <div className='flex w-full overflow-x-scroll sm:justify-center  pt-14 gap-6'>   
         {specialityData.map((item,index)=>{
             return(
                 <div key={index} >
